@@ -38,7 +38,6 @@ sonar_sensor/
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
-ros2 run sonar_sensor sonar_sensor_node
 ```
 
 ### ▶️ Exécution du noeud
