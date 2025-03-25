@@ -14,15 +14,17 @@ Ce package contient :
 ---
 
 ## 🗂 Structure du package
-
+```bash
+sonar_sensor/
 ├── package.xml
-├── resource
-│   └── sonar_sensor
+├── resource/
+│   └── sonar_sensor
 ├── setup.cfg
 ├── setup.py
-└── sonar_sensor
+└── sonar_sensor/
     ├── __init__.py
     └── sonar_sensor_node.py
+```
 
 
     
