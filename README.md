@@ -1,47 +1,39 @@
-# Sonar Sensor - ROS2 Package 🚗📡
+# 🚗 Projet ROS2 : Détection d'obstacle avec sonar et freinage automatique
 
-Ce package ROS2 s'appelle `sonar_sensor`. Il a été développé dans le cadre d'un projet de **détection d'obstacle avec un capteur sonar** et de **freinage automatique d'une voiture robotisée**.
-
----
-
-## 📦 Contenu du package
-
-- `sonar_sensor_node.py` : un nœud ROS2 écrit en Python qui lit une valeur de distance simulée (ou réelle depuis un capteur HC-SR04) et la publie sur un topic `/distance`.
+Ce projet ROS2 implémente un système de détection d'obstacles à l'aide d'un capteur **sonar** (ultrason), dans l'objectif d'intégrer un **freinage automatique** sur une voiture robotisée.
 
 ---
 
-## 📁 Structure
+## 📦 Package ROS2 : `sonar_sensor`
 
-sonar_sensor/ ├── sonar_sensor/ │ ├── init.py │ └── sonar_sensor_node.py ├── package.xml ├── setup.py ├── setup.cfg ├── README.md
+Ce package contient :
 
-yaml
-Copier
-Modifier
+- `sonar_sensor_node.py` : un nœud ROS2 écrit en Python
+- Il publie une distance simulée (0.5 m) sur le topic `/distance` à 10 Hz
 
 ---
 
-## 🚀 Utilisation
+## 🗂 Structure du package
 
-### 1. Build le workspace
+├── package.xml
+├── resource
+│   └── sonar_sensor
+├── setup.cfg
+├── setup.py
+└── sonar_sensor
+    ├── __init__.py
+    └── sonar_sensor_node.py
+
+
+    
+---
+
+## 🚀 Instructions
+
+### 🔧 Compilation
 
 ```bash
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
-
-
-2. Lancer le noeud
 ros2 run sonar_sensor sonar_sensor_node
-
-🔧 À venir
-Intégration du capteur HC-SR04 (ultrason réel)
-
-Freinage automatique (commande d'un moteur/servo)
-
-Détection d'obstacle avec seuil
-
-
-🧠 Dépendances
-rclpy
-
-std_msgs
