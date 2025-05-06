@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating emergency_brake.egg-info
+writing emergency_brake.egg-info/PKG-INFO
+writing dependency_links to emergency_brake.egg-info/dependency_links.txt
+writing entry points to emergency_brake.egg-info/entry_points.txt
+writing requirements to emergency_brake.egg-info/requires.txt
+writing top-level names to emergency_brake.egg-info/top_level.txt
+writing manifest file 'emergency_brake.egg-info/SOURCES.txt'
+reading manifest file 'emergency_brake.egg-info/SOURCES.txt'
+writing manifest file 'emergency_brake.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency-brake.egg-link (link to .)
+Installing emergency_stop script to /home/imad/ros2_ws/src/install/emergency_brake/lib/emergency_brake
+
+Installed /home/imad/ros2_ws/src/build/emergency_brake
+running symlink_data
+creating /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index
+creating /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index/resource_index
+creating /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index/resource_index/packages
+symbolically linking /home/imad/ros2_ws/src/build/emergency_brake/resource/emergency_brake -> /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index/resource_index/packages
+symbolically linking /home/imad/ros2_ws/src/build/emergency_brake/package.xml -> /home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake

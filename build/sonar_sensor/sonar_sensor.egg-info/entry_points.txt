@@ -1,0 +1,3 @@
+[console_scripts]
+sonar_sensor_node = sonar_sensor.sonar_sensor_node:main
+

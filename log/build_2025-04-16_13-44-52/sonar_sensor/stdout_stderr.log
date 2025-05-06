@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/sonar_sensor/sonar_sensor.egg-info
+writing ../build/sonar_sensor/sonar_sensor.egg-info/PKG-INFO
+writing dependency_links to ../build/sonar_sensor/sonar_sensor.egg-info/dependency_links.txt
+writing entry points to ../build/sonar_sensor/sonar_sensor.egg-info/entry_points.txt
+writing requirements to ../build/sonar_sensor/sonar_sensor.egg-info/requires.txt
+writing top-level names to ../build/sonar_sensor/sonar_sensor.egg-info/top_level.txt
+writing manifest file '../build/sonar_sensor/sonar_sensor.egg-info/SOURCES.txt'
+reading manifest file '../build/sonar_sensor/sonar_sensor.egg-info/SOURCES.txt'
+writing manifest file '../build/sonar_sensor/sonar_sensor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/imad/ros2_ws/src/build/sonar_sensor/build
+creating /home/imad/ros2_ws/src/build/sonar_sensor/build/lib
+creating /home/imad/ros2_ws/src/build/sonar_sensor/build/lib/sonar_sensor
+copying sonar_sensor/__init__.py -> /home/imad/ros2_ws/src/build/sonar_sensor/build/lib/sonar_sensor
+copying sonar_sensor/sonar_sensor_node.py -> /home/imad/ros2_ws/src/build/sonar_sensor/build/lib/sonar_sensor
+running install
+running install_lib
+creating /home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor
+copying /home/imad/ros2_ws/src/build/sonar_sensor/build/lib/sonar_sensor/__init__.py -> /home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor
+copying /home/imad/ros2_ws/src/build/sonar_sensor/build/lib/sonar_sensor/sonar_sensor_node.py -> /home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor
+byte-compiling /home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor/sonar_sensor_node.py to sonar_sensor_node.cpython-310.pyc
+running install_data
+creating /home/imad/ros2_ws/src/install/sonar_sensor/share/ament_index
+creating /home/imad/ros2_ws/src/install/sonar_sensor/share/ament_index/resource_index
+creating /home/imad/ros2_ws/src/install/sonar_sensor/share/ament_index/resource_index/packages
+copying resource/sonar_sensor -> /home/imad/ros2_ws/src/install/sonar_sensor/share/ament_index/resource_index/packages
+copying package.xml -> /home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor
+running install_egg_info
+Copying ../build/sonar_sensor/sonar_sensor.egg-info to /home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sonar_sensor_node script to /home/imad/ros2_ws/src/install/sonar_sensor/lib/sonar_sensor
+writing list of installed files to '/home/imad/ros2_ws/src/build/sonar_sensor/install.log'

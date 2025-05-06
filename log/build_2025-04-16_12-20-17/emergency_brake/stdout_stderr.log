@@ -1,0 +1,32 @@
+running develop
+Removing /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency-brake.egg-link (link to .)
+running egg_info
+writing ../build/emergency_brake/emergency_brake.egg-info/PKG-INFO
+writing dependency_links to ../build/emergency_brake/emergency_brake.egg-info/dependency_links.txt
+writing entry points to ../build/emergency_brake/emergency_brake.egg-info/entry_points.txt
+writing requirements to ../build/emergency_brake/emergency_brake.egg-info/requires.txt
+writing top-level names to ../build/emergency_brake/emergency_brake.egg-info/top_level.txt
+reading manifest file '../build/emergency_brake/emergency_brake.egg-info/SOURCES.txt'
+writing manifest file '../build/emergency_brake/emergency_brake.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/imad/ros2_ws/src/build/emergency_brake/build
+creating /home/imad/ros2_ws/src/build/emergency_brake/build/lib
+creating /home/imad/ros2_ws/src/build/emergency_brake/build/lib/emergency_brake
+copying emergency_brake/emergency_stop.py -> /home/imad/ros2_ws/src/build/emergency_brake/build/lib/emergency_brake
+copying emergency_brake/__init__.py -> /home/imad/ros2_ws/src/build/emergency_brake/build/lib/emergency_brake
+running install
+running install_lib
+creating /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake
+copying /home/imad/ros2_ws/src/build/emergency_brake/build/lib/emergency_brake/emergency_stop.py -> /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake
+copying /home/imad/ros2_ws/src/build/emergency_brake/build/lib/emergency_brake/__init__.py -> /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake
+byte-compiling /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake/emergency_stop.py to emergency_stop.cpython-310.pyc
+byte-compiling /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/emergency_brake -> /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index/resource_index/packages
+copying package.xml -> /home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake
+running install_egg_info
+Copying ../build/emergency_brake/emergency_brake.egg-info to /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake-0.0.0-py3.10.egg-info
+running install_scripts
+Installing emergency_stop script to /home/imad/ros2_ws/src/install/emergency_brake/lib/emergency_brake
+writing list of installed files to '/home/imad/ros2_ws/src/build/emergency_brake/install.log'

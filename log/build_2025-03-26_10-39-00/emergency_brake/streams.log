@@ -1,0 +1,24 @@
+[0.790s] Invoking command in '/home/imad/ros2_ws/src/build/emergency_brake': PYTHONPATH=/home/imad/ros2_ws/src/build/emergency_brake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/imad/ros2_ws/src/build/emergency_brake/build --no-deps symlink_data
+[1.004s] running develop
+[1.116s] running egg_info
+[1.116s] creating emergency_brake.egg-info
+[1.119s] writing emergency_brake.egg-info/PKG-INFO
+[1.120s] writing dependency_links to emergency_brake.egg-info/dependency_links.txt
+[1.120s] writing entry points to emergency_brake.egg-info/entry_points.txt
+[1.120s] writing requirements to emergency_brake.egg-info/requires.txt
+[1.120s] writing top-level names to emergency_brake.egg-info/top_level.txt
+[1.120s] writing manifest file 'emergency_brake.egg-info/SOURCES.txt'
+[1.123s] reading manifest file 'emergency_brake.egg-info/SOURCES.txt'
+[1.123s] writing manifest file 'emergency_brake.egg-info/SOURCES.txt'
+[1.125s] running build_ext
+[1.126s] Creating /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency-brake.egg-link (link to .)
+[1.127s] Installing emergency_stop script to /home/imad/ros2_ws/src/install/emergency_brake/lib/emergency_brake
+[1.127s] 
+[1.127s] Installed /home/imad/ros2_ws/src/build/emergency_brake
+[1.128s] running symlink_data
+[1.128s] creating /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index
+[1.128s] creating /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index/resource_index
+[1.128s] creating /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index/resource_index/packages
+[1.128s] symbolically linking /home/imad/ros2_ws/src/build/emergency_brake/resource/emergency_brake -> /home/imad/ros2_ws/src/install/emergency_brake/share/ament_index/resource_index/packages
+[1.128s] symbolically linking /home/imad/ros2_ws/src/build/emergency_brake/package.xml -> /home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake
+[1.163s] Invoked command in '/home/imad/ros2_ws/src/build/emergency_brake' returned '0': PYTHONPATH=/home/imad/ros2_ws/src/build/emergency_brake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/imad/ros2_ws/src/build/emergency_brake/build --no-deps symlink_data

@@ -1,0 +1,31 @@
+[1.147s] Invoking command in '/home/imad/ros2_ws/src/my_car_description': PYTHONPATH=/home/imad/ros2_ws/src/my_car_description/build/my_car_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/my_car_description/install/my_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_car_description build --build-base /home/imad/ros2_ws/src/my_car_description/build/my_car_description/build install --record /home/imad/ros2_ws/src/my_car_description/build/my_car_description/install.log --single-version-externally-managed install_data
+[1.411s] running egg_info
+[1.412s] creating build/my_car_description/my_car_description.egg-info
+[1.412s] writing build/my_car_description/my_car_description.egg-info/PKG-INFO
+[1.413s] writing dependency_links to build/my_car_description/my_car_description.egg-info/dependency_links.txt
+[1.414s] writing entry points to build/my_car_description/my_car_description.egg-info/entry_points.txt
+[1.414s] writing requirements to build/my_car_description/my_car_description.egg-info/requires.txt
+[1.415s] writing top-level names to build/my_car_description/my_car_description.egg-info/top_level.txt
+[1.415s] writing manifest file 'build/my_car_description/my_car_description.egg-info/SOURCES.txt'
+[1.419s] reading manifest file 'build/my_car_description/my_car_description.egg-info/SOURCES.txt'
+[1.420s] writing manifest file 'build/my_car_description/my_car_description.egg-info/SOURCES.txt'
+[1.421s] running build
+[1.421s] running build_py
+[1.421s] creating /home/imad/ros2_ws/src/my_car_description/build/my_car_description/build
+[1.422s] creating /home/imad/ros2_ws/src/my_car_description/build/my_car_description/build/lib
+[1.422s] creating /home/imad/ros2_ws/src/my_car_description/build/my_car_description/build/lib/my_car_description
+[1.423s] copying my_car_description/__init__.py -> /home/imad/ros2_ws/src/my_car_description/build/my_car_description/build/lib/my_car_description
+[1.423s] running install
+[1.424s] running install_lib
+[1.424s] creating /home/imad/ros2_ws/src/my_car_description/install/my_car_description/lib/python3.10/site-packages/my_car_description
+[1.425s] copying /home/imad/ros2_ws/src/my_car_description/build/my_car_description/build/lib/my_car_description/__init__.py -> /home/imad/ros2_ws/src/my_car_description/install/my_car_description/lib/python3.10/site-packages/my_car_description
+[1.425s] byte-compiling /home/imad/ros2_ws/src/my_car_description/install/my_car_description/lib/python3.10/site-packages/my_car_description/__init__.py to __init__.cpython-310.pyc
+[1.426s] running install_data
+[1.427s] creating /home/imad/ros2_ws/src/my_car_description/install/my_car_description/share/ament_index
+[1.428s] creating /home/imad/ros2_ws/src/my_car_description/install/my_car_description/share/ament_index/resource_index
+[1.428s] creating /home/imad/ros2_ws/src/my_car_description/install/my_car_description/share/ament_index/resource_index/packages
+[1.429s] copying resource/my_car_description -> /home/imad/ros2_ws/src/my_car_description/install/my_car_description/share/ament_index/resource_index/packages
+[1.429s] copying package.xml -> /home/imad/ros2_ws/src/my_car_description/install/my_car_description/share/my_car_description
+[1.430s] error: can't copy 'urdf/car.urdf.xacro': doesn't exist or not a regular file
+[1.430s] creating /home/imad/ros2_ws/src/my_car_description/install/my_car_description/share/my_car_description/urdf
+[1.454s] Invoked command in '/home/imad/ros2_ws/src/my_car_description' returned '1': PYTHONPATH=/home/imad/ros2_ws/src/my_car_description/build/my_car_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/my_car_description/install/my_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/my_car_description build --build-base /home/imad/ros2_ws/src/my_car_description/build/my_car_description/build install --record /home/imad/ros2_ws/src/my_car_description/build/my_car_description/install.log --single-version-externally-managed install_data
