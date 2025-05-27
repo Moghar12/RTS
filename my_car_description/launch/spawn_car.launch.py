@@ -14,10 +14,12 @@ def generate_launch_description():
     robot_description = {'robot_description': doc.toxml()}
 
     return LaunchDescription([
+        # Start Gazebo
         ExecuteProcess(
             cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'],
             output='screen'),
 
+        # State publisher
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
@@ -25,12 +27,13 @@ def generate_launch_description():
             parameters=[robot_description],
             output='screen'),
 
+        # Spawn the robot
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
-            arguments=[
-                '-entity', 'simple_car',
-                '-topic', 'robot_description'
-            ],
+            arguments=['-entity', 'four_wheel_car', '-topic', 'robot_description'],
             output='screen'),
+
+        
+
     ])

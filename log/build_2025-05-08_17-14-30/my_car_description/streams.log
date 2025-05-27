@@ -1,0 +1,20 @@
+[1.036s] Invoking command in '/home/imad/ros2_ws/src/my_car_description': PYTHONPATH=/home/imad/ros2_ws/src/build/my_car_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_car_description build --build-base /home/imad/ros2_ws/src/build/my_car_description/build install --record /home/imad/ros2_ws/src/build/my_car_description/install.log --single-version-externally-managed install_data
+[1.208s] running egg_info
+[1.210s] writing ../build/my_car_description/my_car_description.egg-info/PKG-INFO
+[1.211s] writing dependency_links to ../build/my_car_description/my_car_description.egg-info/dependency_links.txt
+[1.211s] writing entry points to ../build/my_car_description/my_car_description.egg-info/entry_points.txt
+[1.212s] writing requirements to ../build/my_car_description/my_car_description.egg-info/requires.txt
+[1.212s] writing top-level names to ../build/my_car_description/my_car_description.egg-info/top_level.txt
+[1.213s] reading manifest file '../build/my_car_description/my_car_description.egg-info/SOURCES.txt'
+[1.213s] writing manifest file '../build/my_car_description/my_car_description.egg-info/SOURCES.txt'
+[1.213s] running build
+[1.213s] running build_py
+[1.213s] running install
+[1.213s] running install_lib
+[1.216s] running install_data
+[1.216s] running install_egg_info
+[1.217s] removing '/home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages/my_car_description-0.0.0-py3.10.egg-info' (and everything under it)
+[1.218s] Copying ../build/my_car_description/my_car_description.egg-info to /home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages/my_car_description-0.0.0-py3.10.egg-info
+[1.219s] running install_scripts
+[1.239s] writing list of installed files to '/home/imad/ros2_ws/src/build/my_car_description/install.log'
+[1.278s] Invoked command in '/home/imad/ros2_ws/src/my_car_description' returned '0': PYTHONPATH=/home/imad/ros2_ws/src/build/my_car_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_car_description build --build-base /home/imad/ros2_ws/src/build/my_car_description/build install --record /home/imad/ros2_ws/src/build/my_car_description/install.log --single-version-externally-managed install_data

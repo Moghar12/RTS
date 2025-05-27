@@ -1,0 +1,21 @@
+[1.708s] Invoking command in '/home/imad/ros2_ws/src/RTS': PYTHONPATH=/home/imad/ros2_ws/src/build/sonar_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sonar_sensor build --build-base /home/imad/ros2_ws/src/build/sonar_sensor/build install --record /home/imad/ros2_ws/src/build/sonar_sensor/install.log --single-version-externally-managed install_data
+[1.947s] running egg_info
+[1.948s] writing ../build/sonar_sensor/sonar_sensor.egg-info/PKG-INFO
+[1.949s] writing dependency_links to ../build/sonar_sensor/sonar_sensor.egg-info/dependency_links.txt
+[1.949s] writing entry points to ../build/sonar_sensor/sonar_sensor.egg-info/entry_points.txt
+[1.949s] writing requirements to ../build/sonar_sensor/sonar_sensor.egg-info/requires.txt
+[1.949s] writing top-level names to ../build/sonar_sensor/sonar_sensor.egg-info/top_level.txt
+[1.952s] reading manifest file '../build/sonar_sensor/sonar_sensor.egg-info/SOURCES.txt'
+[1.953s] writing manifest file '../build/sonar_sensor/sonar_sensor.egg-info/SOURCES.txt'
+[1.953s] running build
+[1.954s] running build_py
+[1.954s] running install
+[1.954s] running install_lib
+[1.956s] running install_data
+[1.956s] running install_egg_info
+[1.958s] removing '/home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor-0.0.0-py3.10.egg-info' (and everything under it)
+[1.960s] Copying ../build/sonar_sensor/sonar_sensor.egg-info to /home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages/sonar_sensor-0.0.0-py3.10.egg-info
+[1.961s] running install_scripts
+[1.986s] Installing sonar_sensor_node script to /home/imad/ros2_ws/src/install/sonar_sensor/lib/sonar_sensor
+[1.987s] writing list of installed files to '/home/imad/ros2_ws/src/build/sonar_sensor/install.log'
+[2.021s] Invoked command in '/home/imad/ros2_ws/src/RTS' returned '0': PYTHONPATH=/home/imad/ros2_ws/src/build/sonar_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sonar_sensor build --build-base /home/imad/ros2_ws/src/build/sonar_sensor/build install --record /home/imad/ros2_ws/src/build/sonar_sensor/install.log --single-version-externally-managed install_data
