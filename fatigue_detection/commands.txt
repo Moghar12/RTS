@@ -1,0 +1,43 @@
+2️⃣ Créer un workspace ROS2
+bash
+Copier le code
+mkdir -p C:\ros2_ws\src
+cd C:\ros2_ws
+colcon build
+-----------------------------------------------
+
+Puis :
+
+bash
+Copier le code
+call install\setup.bat
+-----------------------------------------------
+
+3️⃣ Créer un package ROS2
+bash
+Copier le code
+cd C:\ros2_ws\src
+ros2 pkg create --build-type ament_python fatigue_detection --dependencies rclpy std_msgs
+--------------------------------------------------------------------------------------------------
+
+7️⃣ Build le projet
+bash
+Copier le code
+cd C:\ros2_ws
+colcon build
+call install\setup.bat
+-----------------------------------------------------------
+
+9️⃣ Lancer les nodes
+Dans 2 terminaux séparés :
+
+bash
+Copier le code
+call install\setup.bat
+ros2 run fatigue_detection fatigue_detector
+Puis :
+
+bash
+Copier le code
+call install\setup.bat
+ros2 run fatigue_detection fatigue_monitor_alert
