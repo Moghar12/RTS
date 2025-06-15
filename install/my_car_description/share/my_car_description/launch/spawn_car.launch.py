@@ -12,11 +12,15 @@ def generate_launch_description():
     # Process the XACRO file into URDF
     doc = xacro.process_file(xacro_path)
     robot_description = {'robot_description': doc.toxml()}
+    
+    world_path = os.path.join(pkg_path, 'world', 'world.world')
+
+   
 
     return LaunchDescription([
         # Start Gazebo
         ExecuteProcess(
-            cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'],
+            cmd=['gazebo',world_path,'--verbose', '-s', 'libgazebo_ros_factory.so'],
             output='screen'),
 
         # State publisher

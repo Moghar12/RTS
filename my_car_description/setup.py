@@ -12,6 +12,8 @@ setup(
         ('share/' + package_name, ['package.xml']),
         ('share/' + package_name + '/urdf', ['urdf/simple_car.urdf.xacro']),
         ('share/' + package_name + '/launch', ['launch/spawn_car.launch.py']),
+        ('share/' + package_name + '/world', ['world/world.world']),
+        ('share/' + package_name + '/model', ['model/model.sdf']),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

@@ -9,9 +9,11 @@ setup.py
 ../build/my_car_description/my_car_description.egg-info/top_level.txt
 ../build/my_car_description/my_car_description.egg-info/zip-safe
 launch/spawn_car.launch.py
+models/model/model.sdf
 my_car_description/__init__.py
 resource/my_car_description
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 urdf/simple_car.urdf.xacro
+world/world.world

@@ -84,6 +84,81 @@
   <xacro:wheel_joint parent_link="base_link" child_link="front_left_wheel" joint_name="front_left_wheel_joint" x="0.15" y="0.15" z="-0.05"/>
   <xacro:wheel_joint parent_link="base_link" child_link="front_right_wheel" joint_name="front_right_wheel_joint" x="0.15" y="-0.15" z="-0.05"/>
 
+  <!-- ✅ SONAR SENSOR -->
+  <link name="sonar_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.05" radius="0.015"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1"/>
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <cylinder length="0.05" radius="0.015"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </collision>
+    <inertial>
+      <mass value="0.01"/>
+      <inertia ixx="1e-6" iyy="1e-6" izz="1e-6" ixy="0.0" ixz="0.0" iyz="0.0"/>
+    </inertial>
+  </link>
+
+  <joint name="sonar_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="sonar_link"/>
+    <origin xyz="0.17 0 0.065" rpy="0 0 0"/>
+  </joint>
+
+  <gazebo reference="sonar_link">
+    <sensor type="ray" name="sonar_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10.0</update_rate>
+      <always_on>true</always_on>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>9</samples>              <!-- More rays for visibility -->
+            <resolution>1.0</resolution>
+            <min_angle>-0.15</min_angle>      <!-- ~17 degree cone -->
+            <max_angle>0.15</max_angle>       <!-- ~17 degree cone -->
+          </horizontal>
+          <vertical>
+            <samples>3</samples>              <!-- Add vertical rays -->
+            <resolution>1.0</resolution>
+            <min_angle>-0.05</min_angle>
+            <max_angle>0.05</max_angle>
+          </vertical>
+        </scan>
+        <range>
+          <min>0.02</min>
+          <max>3.0</max>
+          <resolution>0.01</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="sonar_controller" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <namespace>/</namespace>
+          <remapping>~/out:=/sonar</remapping>
+        </ros>
+        <output_type>sensor_msgs/Range</output_type>
+        <frame_name>sonar_link</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
+  
+
   <!-- Gazebo material colors -->
   <gazebo reference="base_link">
     <material>Gazebo/Blue</material>

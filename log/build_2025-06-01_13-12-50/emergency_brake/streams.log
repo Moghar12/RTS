@@ -1,0 +1,21 @@
+[3.317s] Invoking command in '/home/imad/ros2_ws/src/emergency_brake': PYTHONPATH=/home/imad/ros2_ws/src/build/emergency_brake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_brake build --build-base /home/imad/ros2_ws/src/build/emergency_brake/build install --record /home/imad/ros2_ws/src/build/emergency_brake/install.log --single-version-externally-managed install_data
+[4.029s] running egg_info
+[4.032s] writing ../build/emergency_brake/emergency_brake.egg-info/PKG-INFO
+[4.034s] writing dependency_links to ../build/emergency_brake/emergency_brake.egg-info/dependency_links.txt
+[4.035s] writing entry points to ../build/emergency_brake/emergency_brake.egg-info/entry_points.txt
+[4.036s] writing requirements to ../build/emergency_brake/emergency_brake.egg-info/requires.txt
+[4.037s] writing top-level names to ../build/emergency_brake/emergency_brake.egg-info/top_level.txt
+[4.043s] reading manifest file '../build/emergency_brake/emergency_brake.egg-info/SOURCES.txt'
+[4.050s] writing manifest file '../build/emergency_brake/emergency_brake.egg-info/SOURCES.txt'
+[4.050s] running build
+[4.050s] running build_py
+[4.050s] running install
+[4.050s] running install_lib
+[4.052s] running install_data
+[4.054s] running install_egg_info
+[4.064s] removing '/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake-0.0.0-py3.10.egg-info' (and everything under it)
+[4.064s] Copying ../build/emergency_brake/emergency_brake.egg-info to /home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages/emergency_brake-0.0.0-py3.10.egg-info
+[4.067s] running install_scripts
+[4.144s] Installing emergency_stop script to /home/imad/ros2_ws/src/install/emergency_brake/lib/emergency_brake
+[4.150s] writing list of installed files to '/home/imad/ros2_ws/src/build/emergency_brake/install.log'
+[4.402s] Invoked command in '/home/imad/ros2_ws/src/emergency_brake' returned '0': PYTHONPATH=/home/imad/ros2_ws/src/build/emergency_brake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_brake build --build-base /home/imad/ros2_ws/src/build/emergency_brake/build install --record /home/imad/ros2_ws/src/build/emergency_brake/install.log --single-version-externally-managed install_data

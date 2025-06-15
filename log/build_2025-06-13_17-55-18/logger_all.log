@@ -1,0 +1,215 @@
+[0.517s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.518s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f6715800310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f67157cbf10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f67157cbf10>>)
+[1.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.236s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/imad/ros2_ws/src'
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extensions ['ignore', 'ignore_ament_install']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extension 'ignore'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extension 'ignore_ament_install'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extensions ['colcon_pkg']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extension 'colcon_pkg'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extensions ['colcon_meta']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extension 'colcon_meta'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extensions ['ros']
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(RTS) by extension 'ros'
+[1.269s] DEBUG:colcon.colcon_core.package_identification:Package 'RTS' with type 'ros.ament_python' and name 'sonar_sensor'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extensions ['ignore', 'ignore_ament_install']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extension 'ignore'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extension 'ignore_ament_install'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extensions ['colcon_pkg']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extension 'colcon_pkg'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extensions ['colcon_meta']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extension 'colcon_meta'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extensions ['ros']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(emergency_brake) by extension 'ros'
+[1.272s] DEBUG:colcon.colcon_core.package_identification:Package 'emergency_brake' with type 'ros.ament_python' and name 'emergency_brake'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extensions ['ignore', 'ignore_ament_install']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extension 'ignore'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extension 'ignore_ament_install'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extensions ['colcon_pkg']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extension 'colcon_pkg'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extensions ['colcon_meta']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extension 'colcon_meta'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extensions ['ros']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(my_car_description) by extension 'ros'
+[1.274s] DEBUG:colcon.colcon_core.package_identification:Package 'my_car_description' with type 'ros.ament_python' and name 'my_car_description'
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/imad/ros2_ws/src/install
+[1.343s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 327 installed packages in /opt/ros/humble
+[1.355s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'cmake_args' from command line to 'None'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'cmake_target' from command line to 'None'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'cmake_clean_cache' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'cmake_clean_first' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'cmake_force_configure' from command line to 'False'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'ament_cmake_args' from command line to 'None'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'catkin_cmake_args' from command line to 'None'
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'emergency_brake' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.846s] DEBUG:colcon.colcon_core.verb:Building package 'emergency_brake' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imad/ros2_ws/src/build/emergency_brake', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imad/ros2_ws/src/install/emergency_brake', 'merge_install': False, 'path': '/home/imad/ros2_ws/src/emergency_brake', 'symlink_install': False, 'test_result_base': None}
+[3.846s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'cmake_args' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'cmake_target' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'my_car_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.847s] DEBUG:colcon.colcon_core.verb:Building package 'my_car_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imad/ros2_ws/src/build/my_car_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imad/ros2_ws/src/install/my_car_description', 'merge_install': False, 'path': '/home/imad/ros2_ws/src/my_car_description', 'symlink_install': False, 'test_result_base': None}
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'cmake_args' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'cmake_target' from command line to 'None'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'cmake_clean_cache' from command line to 'False'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'cmake_clean_first' from command line to 'False'
+[3.847s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'cmake_force_configure' from command line to 'False'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'ament_cmake_args' from command line to 'None'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'catkin_cmake_args' from command line to 'None'
+[3.848s] Level 5:colcon.colcon_core.verb:set package 'sonar_sensor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.848s] DEBUG:colcon.colcon_core.verb:Building package 'sonar_sensor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/imad/ros2_ws/src/build/sonar_sensor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/imad/ros2_ws/src/install/sonar_sensor', 'merge_install': False, 'path': '/home/imad/ros2_ws/src/RTS', 'symlink_install': False, 'test_result_base': None}
+[3.848s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.849s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.849s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/imad/ros2_ws/src/emergency_brake' with build type 'ament_python'
+[3.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_brake', 'ament_prefix_path')
+[3.860s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/hook/ament_prefix_path.ps1'
+[3.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/hook/ament_prefix_path.dsv'
+[3.863s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/hook/ament_prefix_path.sh'
+[3.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.865s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.871s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/imad/ros2_ws/src/my_car_description' with build type 'ament_python'
+[3.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_car_description', 'ament_prefix_path')
+[3.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/hook/ament_prefix_path.ps1'
+[3.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/hook/ament_prefix_path.dsv'
+[3.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/hook/ament_prefix_path.sh'
+[3.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.880s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/imad/ros2_ws/src/RTS' with build type 'ament_python'
+[3.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('sonar_sensor', 'ament_prefix_path')
+[3.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/hook/ament_prefix_path.ps1'
+[3.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/hook/ament_prefix_path.dsv'
+[3.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/hook/ament_prefix_path.sh'
+[3.885s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.184s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/imad/ros2_ws/src/emergency_brake'
+[4.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.451s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/imad/ros2_ws/src/my_car_description'
+[4.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.716s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/imad/ros2_ws/src/RTS'
+[4.716s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.717s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imad/ros2_ws/src/emergency_brake': PYTHONPATH=/home/imad/ros2_ws/src/build/emergency_brake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_brake build --build-base /home/imad/ros2_ws/src/build/emergency_brake/build install --record /home/imad/ros2_ws/src/build/emergency_brake/install.log --single-version-externally-managed install_data
+[5.311s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imad/ros2_ws/src/RTS': PYTHONPATH=/home/imad/ros2_ws/src/build/sonar_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sonar_sensor build --build-base /home/imad/ros2_ws/src/build/sonar_sensor/build install --record /home/imad/ros2_ws/src/build/sonar_sensor/install.log --single-version-externally-managed install_data
+[5.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/imad/ros2_ws/src/my_car_description': PYTHONPATH=/home/imad/ros2_ws/src/build/my_car_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_car_description build --build-base /home/imad/ros2_ws/src/build/my_car_description/build install --record /home/imad/ros2_ws/src/build/my_car_description/install.log --single-version-externally-managed install_data
+[5.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imad/ros2_ws/src/emergency_brake' returned '0': PYTHONPATH=/home/imad/ros2_ws/src/build/emergency_brake/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/emergency_brake build --build-base /home/imad/ros2_ws/src/build/emergency_brake/build install --record /home/imad/ros2_ws/src/build/emergency_brake/install.log --single-version-externally-managed install_data
+[5.613s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/emergency_brake' for CMake module files
+[5.614s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/emergency_brake' for CMake config files
+[5.615s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/emergency_brake/lib'
+[5.615s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/emergency_brake/bin'
+[5.615s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/emergency_brake/lib/pkgconfig/emergency_brake.pc'
+[5.615s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/emergency_brake/lib/python3.10/site-packages'
+[5.615s] Level 1:colcon.colcon_core.shell:create_environment_hook('emergency_brake', 'pythonpath')
+[5.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/hook/pythonpath.ps1'
+[5.616s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/hook/pythonpath.dsv'
+[5.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/hook/pythonpath.sh'
+[5.618s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/emergency_brake/bin'
+[5.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(emergency_brake)
+[5.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/package.ps1'
+[5.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/package.dsv'
+[5.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/package.sh'
+[5.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/package.bash'
+[5.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/emergency_brake/share/emergency_brake/package.zsh'
+[5.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imad/ros2_ws/src/install/emergency_brake/share/colcon-core/packages/emergency_brake)
+[5.627s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/my_car_description' for CMake module files
+[5.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imad/ros2_ws/src/my_car_description' returned '0': PYTHONPATH=/home/imad/ros2_ws/src/build/my_car_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_car_description build --build-base /home/imad/ros2_ws/src/build/my_car_description/build install --record /home/imad/ros2_ws/src/build/my_car_description/install.log --single-version-externally-managed install_data
+[5.629s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/my_car_description' for CMake config files
+[5.630s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/my_car_description/lib'
+[5.630s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/my_car_description/bin'
+[5.630s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/my_car_description/lib/pkgconfig/my_car_description.pc'
+[5.630s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages'
+[5.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_car_description', 'pythonpath')
+[5.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/hook/pythonpath.ps1'
+[5.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/hook/pythonpath.dsv'
+[5.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/hook/pythonpath.sh'
+[5.632s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/my_car_description/bin'
+[5.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_car_description)
+[5.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/package.ps1'
+[5.633s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/package.dsv'
+[5.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/package.sh'
+[5.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/package.bash'
+[5.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/package.zsh'
+[5.635s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imad/ros2_ws/src/install/my_car_description/share/colcon-core/packages/my_car_description)
+[5.635s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/sonar_sensor' for CMake module files
+[5.637s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/sonar_sensor' for CMake config files
+[5.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/imad/ros2_ws/src/RTS' returned '0': PYTHONPATH=/home/imad/ros2_ws/src/build/sonar_sensor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sonar_sensor build --build-base /home/imad/ros2_ws/src/build/sonar_sensor/build install --record /home/imad/ros2_ws/src/build/sonar_sensor/install.log --single-version-externally-managed install_data
+[5.638s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/sonar_sensor/lib'
+[5.638s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/sonar_sensor/bin'
+[5.638s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/sonar_sensor/lib/pkgconfig/sonar_sensor.pc'
+[5.638s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/sonar_sensor/lib/python3.10/site-packages'
+[5.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('sonar_sensor', 'pythonpath')
+[5.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/hook/pythonpath.ps1'
+[5.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/hook/pythonpath.dsv'
+[5.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/hook/pythonpath.sh'
+[5.640s] Level 1:colcon.colcon_core.environment:checking '/home/imad/ros2_ws/src/install/sonar_sensor/bin'
+[5.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sonar_sensor)
+[5.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/package.ps1'
+[5.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/package.dsv'
+[5.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/package.sh'
+[5.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/package.bash'
+[5.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/imad/ros2_ws/src/install/sonar_sensor/share/sonar_sensor/package.zsh'
+[5.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/imad/ros2_ws/src/install/sonar_sensor/share/colcon-core/packages/sonar_sensor)
+[5.644s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.645s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.646s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[5.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.695s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.695s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.695s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[5.696s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.696s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imad/ros2_ws/src/install/local_setup.ps1'
+[5.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/imad/ros2_ws/src/install/_local_setup_util_ps1.py'
+[5.702s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imad/ros2_ws/src/install/setup.ps1'
+[5.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imad/ros2_ws/src/install/local_setup.sh'
+[5.706s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/imad/ros2_ws/src/install/_local_setup_util_sh.py'
+[5.707s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imad/ros2_ws/src/install/setup.sh'
+[5.710s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imad/ros2_ws/src/install/local_setup.bash'
+[5.712s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imad/ros2_ws/src/install/setup.bash'
+[5.714s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/imad/ros2_ws/src/install/local_setup.zsh'
+[5.716s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/imad/ros2_ws/src/install/setup.zsh'

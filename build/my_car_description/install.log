@@ -4,6 +4,8 @@
 /home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/package.xml
 /home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/urdf/simple_car.urdf.xacro
 /home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/launch/spawn_car.launch.py
+/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/world/world.world
+/home/imad/ros2_ws/src/install/my_car_description/share/my_car_description/models/model.sdf
 /home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages/my_car_description-0.0.0-py3.10.egg-info/PKG-INFO
 /home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages/my_car_description-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/imad/ros2_ws/src/install/my_car_description/lib/python3.10/site-packages/my_car_description-0.0.0-py3.10.egg-info/entry_points.txt
