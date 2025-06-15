@@ -32,7 +32,7 @@ RIGHT_EYE_TOP = 386
 RIGHT_EYE_BOTTOM = 374
 
 # Seuils (ajustables selon la caméra et distance)
-MOUTH_OPEN_THRESHOLD = 20  # pixels
+MOUTH_OPEN_THRESHOLD = 15  # pixels
 EYE_CLOSED_THRESHOLD = 5   # pixels
 
 # Compteurs
